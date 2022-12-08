@@ -26,7 +26,7 @@ func main() {
 		if curr > prev {
 			count = count + 1
 		}
-		println(curr, prev, count)
+		println("Is ", curr, prev, count)
 
 		prev = curr
 		curr = toString(lines[i]) + toString(lines[i+1]) + toString(lines[i+2])
